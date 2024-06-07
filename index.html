@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Página Inicial</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="bootstrap/css/estilo.css" rel="stylesheet"> 
+        
+    </head>
+    <body>
+        <div  class="container caixa " >
+            
+            <header class="row clearfix">
+                <div class="col-md-8">
+                <img src="bootstrap/img/logo.png" alt="Logo Maraca"/>
+                </div>
+                <div class="col-md-4"  style="margin-top: 25px">
+                    <form class="form-inline text-right" method="get">
+                        <input  type="text"  name="search_name" class="tiluto" placeholder="Nome do usuário" required> 
+                        <button  class="btn btn-success"  type="submit">Buscar</button>
+                    </form>
+                    
+                </div>
+        </header>
+            <nav class="row clearfix caixa nav">
+                
+                <ul  class="nav nav-pills menu-estilo">
+                    <li><a href="index.php" target="_blank"></a>Inicio</li>
+                    <li><a href="listas.html" target="_blank"></a>Listas</li>
+                    <li><a href="produtos.php" target="_blank"></a>Produtos</li>
+                </ul>
+
+        </nav>
+            <div class="row clearfix">
+                <section class="col-md-6">
+                    <form method="post" class="form-estilo">
+                        <h2 class="titulo"><strong>Efetue o login</strong></h2>
+                        <hr>
+                        <p>
+                            <input type="email" name="email" class="form-control" placeholder="Digite seu email" required>
+                        </p>
+                        <p>
+                            <input type="password" name="senha" class="form-control" placeholder="Digite sua senha" required>
+                        </p>
+                        <label class="checkbox">
+                            <input type="radio" name="lembrete"> Lembrar senha 
+                        </label>
+                        <p>
+                            <button name="login" type="submit" class="btn btn-lg btn-info btn-block">Entrar</button>
+                        </p>
+                        
+                    </form>
+        </section>
+                <section class="col-md-6">
+                    <form method="post" class="form-estilo">
+                        <h2 class="titulo"><strong>Cadastre-se agora</strong></h2>
+                        <hr>
+                        <p>
+                            <input type="email" name="email" class="form-control" placeholder="Digite seu email" required>
+                        </p>
+                        <p>
+                            <input type="text" name="name" class="form-control" placeholder="Digite seu nome" required>
+                        </p>
+                        <p>
+                            <input type="password" name="senha" class="form-control" placeholder="Digite sua senha" required>
+                        </p>
+                        <p>
+                            <button name="login" type="submit" class="btn btn-lg btn-info btn-block">Cadastrar</button>
+                        </p>
+                    </form>
+        </section>
+            </div>
+       
+            <section class="row clearfx caixa">
+                <hr> 
+                <h2 class="titulo"><strong>Como criar sua própria lista?</strong></h2>
+                <hr> 
+               
+                    <div  class="col-md-6">
+                        <img class="img-responsive " 
+                             alt="tutorial_3" src="bootstrap/img/index/tutorial_3.jpg">
+                </div>
+                    
+                    <div  class="col-md-6">
+                       <p>
+                           Texto Explicativo
+                       </p>
+               
+                </div>
+        </section>
+      </div>
+    </body>
+</html>
